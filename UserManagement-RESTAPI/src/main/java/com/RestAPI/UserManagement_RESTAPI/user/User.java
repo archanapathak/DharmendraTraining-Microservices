@@ -1,9 +1,14 @@
 package com.RestAPI.UserManagement_RESTAPI.user;
+import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
+
 import java.util.Date;
 
 public class User {
 
     Integer id ;
+    @NotBlank(message = "name cannot be blank")
+     @Size(min = 5 ,message = "length cannot be less than 5")
     String name ;
     Date dob;
 
