@@ -12,11 +12,17 @@ public class UserDaoService {
 
     static {
 
-        users.add(new User(1, "John", new Date()));
-        users.add(new User(2, "Robert", new Date()));
-        users.add(new User(3, "Adam", new Date()));
-        users.add(new User(4, "Andrew", new Date()));
-        users.add(new User(5, "Jack", new Date()));
+//        users.add(new User(1, "John", new Date()));
+//        users.add(new User(2, "Robert", new Date()));
+//        users.add(new User(3, "Adam", new Date()));
+//        users.add(new User(4, "Andrew", new Date()));
+//        users.add(new User(5, "Jack", new Date()));
+
+        users.add(new User(1, "John"));
+        users.add(new User(2, "Robert"));
+        users.add(new User(3, "Adam"));
+        users.add(new User(4, "Andrew"));
+        users.add(new User(5, "Jack"));
 
     }
 
