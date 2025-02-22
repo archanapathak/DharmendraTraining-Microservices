@@ -1,0 +1,23 @@
+Currency Exchange Service
+http://localhost:8001/currency-exchange/from/USD/to/INR
+http://localhost:8002/currency-exchange/from/USD/to/INR
+
+
+Currency Conversion Service
+http://localhost:8100/currency-conversion/from/USD/to/INR/quantity/10
+
+Eureka Naming Server
+http://localhost:8761
+
+API GATEWAY
+http://localhost:8765
+
+all services endpoint with api gateway
+
+http://localhost:8765/CURRENCY-EXCHANGE-SERVICE/currency-exchange/from/USD/to/INR
+
+http://localhost:8765/CURRENCY-CONVERSION-SERVICE/currency-conversion/from/USD/to/INR/quantity/10
+
+
+lowercase
+http://localhost:8765/currency-exchange-service/currency-exchange/from/USD/to/INR
